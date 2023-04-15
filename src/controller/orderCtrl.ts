@@ -157,15 +157,6 @@ export const updateOrder = asyncHandler(async (req, res, next) => {
 //
 
 export const getOrderState = asyncHandler(async (req, res, next) => {
-  // const sumOfTotalSales = await Order.aggregate([
-  //   {
-  //     $group: {
-  //       _id: null,
-  //       totalSales: { $sum: '$totalPrice' },
-  //     },
-  //   },
-  // ]);
-  // get min order
   const orders = await Order.aggregate([
     {
       $group: {
