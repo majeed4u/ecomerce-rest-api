@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "build": "tsc",
-    "server": "nodemon",
-    "start": "node ./build/server.js"
+    "start": "node ./build/server.js",
+    "server": "nodemon"
   },
   "keywords": [
     "API",
