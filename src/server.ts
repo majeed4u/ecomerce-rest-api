@@ -1,6 +1,6 @@
-import app from './src/app/app';
+import app from './app/app';
 import http from 'http';
-import env from './src/utils/enValidator';
+import env from './utils/enValidator';
 
 // create server
 

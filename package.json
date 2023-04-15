@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
     "server": "nodemon",
-    "start": "ts-node   server.ts"
+    "start": "node ./build/index.js"
   },
   "keywords": [
     "API",
